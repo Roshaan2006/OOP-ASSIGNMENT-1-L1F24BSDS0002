@@ -27,3 +27,35 @@ The system represents real-world entities (students) as C++ classes and objects,
 
 
 
+---
+
+## 💻 Code Summary
+
+### Class: `Student`
+
+| Member | Type | Description |
+|---------|------|-------------|
+| `name`  | `string` | Student's name |
+| `age`   | `int` | Student's age |
+| `rollNo` | `int` | Unique roll number |
+| `gpa` | `float` | Grade Point Average |
+
+**Public Methods**
+- `setName(string)`, `setAge(int)`, `setRollNo(int)`, `setGpa(float)` — setters  
+- `getName()`, `getAge()`, `getRollNo()`, `getGpa()` — getters  
+- `displayInfo()` — prints all attributes  
+- `displayGrade()` — calculates and prints letter grade (A–F)
+
+**Constructors**
+- `Student()` — default constructor  
+- `Student(string, int, int, float)` — parameterized constructor
+
+**Destructor**
+- `~Student()` — prints a message when object is destroyed
+
+---
+
+
+
+
+
